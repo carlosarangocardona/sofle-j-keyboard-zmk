@@ -14,6 +14,23 @@
 
 <img src="keymap-drawer/sofle.svg" >
 
+# Configuration
+
+## Enabling pointer and encoder
+
+I have disabled the pointer and encoder devices as my keyboard does not have them. If you want to enable them, please uncomment the following lines in `config/eylash_sofle.conf`:
+
+```
+# Uncoment these to enable the encoder:
+#CONFIG_EC11=y
+#CONFIG_EC11_TRIGGER_GLOBAL_THREAD=y
+
+
+# Uncomment these to enable the pointer/mouse:
+#CONFIG_ZMK_POINTING=y
+
+```
+
 # Setup steps
 
 ## Flashing firmware
