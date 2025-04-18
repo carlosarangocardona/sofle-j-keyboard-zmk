@@ -132,7 +132,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   L2:
   - {t: '$$mdi:transfer$$', type: trans}
-  - Gui+$$mdi:brightness-7$$
+  - $$mdi:brightness-7$$
   - $$mdi:brightness-5$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
