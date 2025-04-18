@@ -141,7 +141,7 @@ layers:
   - $$mdi:volume-low$$
   - PREVIOUS
   - PLAY PAUSE
-  - Gui+$$mdi:skip-next$$
+  - $$mdi:skip-next$$
   - $$mdi:volume-off$$
   - $$mdi:volume-high$$
   - {t: '$$mdi:transfer$$', type: trans}
