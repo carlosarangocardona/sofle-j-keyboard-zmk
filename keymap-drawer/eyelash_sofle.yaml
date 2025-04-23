@@ -13,7 +13,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-esc$$
   - Q
   - W
@@ -67,8 +67,8 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   L1:
   - {t: '`', s: '~'}
-  - RGB OFF
-  - RGB ON
+  - RGB TOG
+  - {t: '$$mdi:transfer$$', type: trans}
   - RGB EFR
   - RGB EFF
   - RGB SPD
@@ -78,7 +78,7 @@ layers:
   - RGB BRI
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - F1
   - F2
   - F3
@@ -143,7 +143,7 @@ layers:
   - PLAY PAUSE
   - $$mdi:skip-next$$
   - $$mdi:volume-off$$
-  - $$mdi:volume-high$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:bluetooth-off$$
   - BT CLR ALL
@@ -151,12 +151,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:volume-high$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - +
   - {t: '$$mdi:transfer$$', type: trans}
   - OUT USB
   - OUT BLE
