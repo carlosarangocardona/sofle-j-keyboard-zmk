@@ -52,10 +52,10 @@
 
         navigation {
             bindings = <
-&kp GRAVE     &trans  &trans  &trans  &trans  &trans    &trans  &kp HOME        &kp END   &trans        &trans           &kp PRINTSCREEN  &trans
+&trans        &trans  &trans  &trans  &trans  &trans    &trans  &trans          &trans    &trans        &trans           &kp PRINTSCREEN  &trans
 &kp F1        &kp F2  &kp F3  &kp F4  &kp F5  &kp F6    &trans  &kp F7          &kp F8    &kp F9        &kp F10          &kp F11          &kp F12
-&kp CAPSLOCK  &trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT_ARROW  &kp DOWN  &kp UP_ARROW  &kp RIGHT_ARROW  &kp BSLH         &kp EQUAL
-&trans        &trans  &trans  &trans  &trans  &trans    &trans  &trans          &trans    &trans        &trans           &trans           &trans
+&kp CAPSLOCK  &trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT_ARROW  &kp DOWN  &kp UP_ARROW  &kp RIGHT_ARROW  &trans           &trans
+&trans        &trans  &trans  &trans  &trans  &trans    &trans  &trans          &kp END   &kp HOME      &trans           &trans           &trans
 &trans        &trans  &trans  &trans  &trans  &trans    &trans  &trans          &trans    &trans        &trans           &trans
             >;
 
@@ -66,11 +66,11 @@
 
         symbols {
             bindings = <
-&trans  &trans  &trans    &trans     &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans    &trans     &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp PLUS  &kp MINUS  &kp EQUAL  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans    &trans     &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans    &trans     &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans         &trans     &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp GRAVE  &kp BACKSLASH  &kp UNDER  &kp PIPE   &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp TILDE  &kp PLUS       &kp MINUS  &kp EQUAL  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans         &trans     &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans         &trans     &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             display-name = "SYM";
