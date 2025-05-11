@@ -33,6 +33,30 @@
         tap-ms = <100>;
     };*/
 
+    behaviors {
+        hml: hml {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HML";
+            bindings = <&none>, <&none>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "balanced";
+            hold-trigger-key-positions = <7 8 9 10 11 12 25 24 23 22 21 20 33 34 35 36 37 38 51 50 49 48 47 46>;
+        };
+
+        hmr: hmr {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HMR";
+            bindings = <&none>, <&none>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "balanced";
+            hold-trigger-key-positions = <0 1 2 3 4 5 18 17 16 15 14 13 31 30 29 28 27 26 44 43 42 41 40 39>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
