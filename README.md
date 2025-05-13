@@ -10,10 +10,6 @@
 
 ---
 
-# Sofle Keymap
-
-<img src="keymap-drawer/sofle.svg" >
-
 # Configuration
 
 ## Enabling pointer and encoder
