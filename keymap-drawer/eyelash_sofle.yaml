@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
   BASE:
-  - {t: '`', s: '~'}
+  - $$mdi:backspace-reverse-outline$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -40,7 +40,7 @@ layers:
   - {t: L, h: '$$mdi:apple-keyboard-control$$'}
   - {t: ;, h: '$$mdi:apple-keyboard-option$$', s: ':'}
   - {t: '''', s: '"'}
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '`', s: '~'}
   - Z
   - X
   - C
@@ -56,7 +56,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - ADJ
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:backspace-reverse-outline$$
+  - $$mdi:keyboard-esc$$
   - NAV
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:transfer$$', type: trans}
